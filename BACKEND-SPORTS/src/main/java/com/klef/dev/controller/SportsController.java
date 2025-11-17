@@ -11,7 +11,7 @@ import com.klef.dev.entity.Sports;
 import com.klef.dev.service.SportsService;
 
 @RestController
-@RequestMapping("/sportsapi/")
+@RequestMapping("/sportsapi")
 @CrossOrigin(origins = "*")
 public class SportsController {
 
