@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: shruthikaaa10/k8-pickle-frontend:first  # <-- change this
+          image: shruthikaaa10/k8-frontend:first  # <-- change this
           ports:
             - containerPort: 80
 ---
